@@ -1,0 +1,64 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --primary: #04f7ff;
+    --gray: #bdbcbc;
+    --primaryfont: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: aquamarine;
+}
+
+header {
+    text-align: center;
+    background-color: var(--black);
+    padding: 0.001em;
+}
+
+header h1 {
+    font-weight: bold;
+    color: #02e0e0;
+    font-size: calc(18px + 1.590625vw);
+}
+
+.navbar-1 {
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+main {
+    background-color: var(--gray);
+    border-radius: 1rem;
+    font-size: 100%;
+    margin-top: 15px;
+}
+
+main div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 40px 0 17px 0;
+    text-justify: auto;
+}
+
+main section {
+    max-width: 40%;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+main h3 {
+    font-size: calc(13px + 0.390625vw);
+}
+
+footer {
+    text-align: center;
+    font-size: calc(12px + 0.390625vw);	
+}
