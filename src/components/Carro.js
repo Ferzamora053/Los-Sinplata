@@ -1,4 +1,7 @@
 import React from 'react';
+import foto1 from '../img/fo1.png'
+import foto2 from '../img/fo2.jpg'
+import foto3 from '../img/fo3.jpg'
 
 function Carro() {
   return (
@@ -10,24 +13,24 @@ function Carro() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="https://picsum.photos/3888/1080" className="d-block w-100" alt="Descripción de la imagen" />
+          <img src={foto1} className="d-block w-100" alt="Descripción de la imagen" />
           <div className="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.</p>
+            <h5>Fernando Zamora</h5>
+            <p>Los juegos son mi gran pasatiempo, Terraria es un de mis juegos favoritos.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="https://picsum.photos/3888/1080" className="d-block w-100" alt="..."></img>
+          <img src={foto2} className="d-block w-100" alt="..."></img>
           <div className="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Some representative placeholder content for the second slide.</p>
+            <h5>Arturo Figueroa</h5>
+            <p>El deporte que más me llama la atención es el volleyball.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="https://picsum.photos/3888/1080" className="d-block w-100" alt="..."></img>
+          <img src={foto3} className="d-block w-100" alt="..."></img>
           <div className="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Some representative placeholder content for the third slide.</p>
+            <h5>Diego Espinoza</h5>
+            <p>Mi pasión son los autos, desde pequeño siempre me han gustado</p>
           </div>
         </div>
       </div>

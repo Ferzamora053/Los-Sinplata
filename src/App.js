@@ -7,6 +7,7 @@ import Objetivos from './components/Objetivos';
 import Usuarios from './components/Usuarios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         <Objetivos/>
       </div>
       <Usuarios/>
-
+      <Footer/>
     </div>
   );
 }

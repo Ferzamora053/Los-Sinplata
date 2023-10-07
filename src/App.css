@@ -1,6 +1,19 @@
-#nombreequipo{
+#nombreequipo {
   text-align: center;
   background-color: rgb(33, 133, 133);
   margin: 0;
   padding: 0.5rem;
+}
+
+#btnMiembros {
+  background-color: rgb(33, 133, 133);
+  margin: 0;
+  padding: 0.5rem;
+  border: none;
+}
+
+#fotoMiembro {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
