@@ -3,16 +3,16 @@ import React from 'react';
 function Ideas(){
     // Podemos poner codigo JS aca
     return(
-      <div class="card text-center">
-        <div class="card-header">
+      <div className="card text-center">
+        <div className="card-header">
           Presentacion
         </div>
-        <div class="card-body">
-          <h5 class="card-title">¿Quienes somos?</h5>
-          <p class="card-text">Nosotros somos el equipo "Los Sinplata" y nuestros objetivos son:
+        <div className="card-body">
+          <h5 className="card-title">¿Quienes somos?</h5>
+          <p className="card-text">Nosotros somos el equipo "Los Sinplata" y nuestros objetivos son:
 </p>
         </div>
-        <div class="card-footer text-body-secondary">
+        <div className="card-footer text-body-secondary">
           Presentacion
         </div>
       </div>
