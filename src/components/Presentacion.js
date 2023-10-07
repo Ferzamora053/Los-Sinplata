@@ -9,14 +9,9 @@ function Ideas(){
         </div>
         <div className="card-body">
           <h5 className="card-title">¿Quienes somos?</h5>
-          <p className="card-text">Nosotros somos el equipo "Los Sinplata" y nuestros objetivos son:
-</p>
-        </div>
-        <div className="card-footer text-body-secondary">
-          Presentacion
+          <p className="card-text">Nosotros somos el equipo "Los Sinplata" y nuestros objetivos son:</p>
         </div>
       </div>
-
     );
 }
 
