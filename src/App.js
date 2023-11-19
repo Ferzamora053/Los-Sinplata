@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
 import Titulo from './components/Titulo';
 import Carro from './components/Carro';
 import Presentacion from './components/Presentacion';
